@@ -31,7 +31,7 @@ public class JoystickMove : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     void Update()
     {
         vec3_velo = rtf_JoyStick.position - vec3_init;
-        rb2D_Player.position += new Vector2(vec3_velo.x, vec3_velo.y)*Time.deltaTime*0.1f;
+        rb2D_Player.position += new Vector2(vec3_velo.x, vec3_velo.y)*Time.deltaTime*f_SpeedFactor;
     }
 
     public void OnPointerDown(PointerEventData eventData)

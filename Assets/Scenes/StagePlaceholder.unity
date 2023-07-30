@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gObj_Player: {fileID: 1428499405}
-  f_SpeedFactor: 0.1
+  f_SpeedFactor: 1
 --- !u!1 &1802553983
 GameObject:
   m_ObjectHideFlags: 0

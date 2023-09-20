@@ -155,6 +155,7 @@ m_PackageAssets:
         - 10.0.0
         - 10.0.1
         - 10.0.2
+        - 10.0.3
         compatible:
         - 5.0.9
         - 5.0.10
@@ -385,6 +386,7 @@ m_PackageAssets:
         - 9.0.0-pre.1
         - 9.0.0-pre.2
         - 9.0.0
+        - 9.0.1
         compatible:
         - 4.1.2
         - 4.1.3
@@ -597,6 +599,7 @@ m_PackageAssets:
         - 10.0.0-pre.2
         - 10.0.0
         - 10.0.1
+        - 10.0.2
         compatible:
         - 5.1.6
         - 5.1.7
@@ -800,6 +803,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
+        - 2.1.0
         compatible:
         - 1.15.4
         - 1.15.7
@@ -937,6 +941,7 @@ m_PackageAssets:
         - 3.0.21
         - 3.0.22
         - 3.0.24
+        - 3.0.25
         compatible:
         - 1.0.2
         - 1.0.6
@@ -976,6 +981,7 @@ m_PackageAssets:
         - 3.0.21
         - 3.0.22
         - 3.0.24
+        - 3.0.25
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1054,6 +1060,7 @@ m_PackageAssets:
         - 2.0.17
         - 2.0.18
         - 2.0.20
+        - 2.0.21
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1077,7 +1084,8 @@ m_PackageAssets:
         - 2.0.17
         - 2.0.18
         - 2.0.20
-        verified: 2.0.20
+        - 2.0.21
+        verified: 2.0.21
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -1329,6 +1337,7 @@ m_PackageAssets:
         - 2.1.1
         - 2.2.0
         - 2.2.1
+        - 2.2.2
         compatible:
         - 1.0.0-preview.4
         - 1.0.0-preview.5
@@ -1370,6 +1379,7 @@ m_PackageAssets:
         - 2.1.1
         - 2.2.0
         - 2.2.1
+        - 2.2.2
         verified: 1.4.4
       dependencies:
       - name: com.unity.modules.androidjni
@@ -1799,6 +1809,7 @@ m_PackageAssets:
         - 1.8.2
         - 1.8.3
         - 1.8.4
+        - 1.8.5
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1837,6 +1848,7 @@ m_PackageAssets:
         - 1.8.2
         - 1.8.3
         - 1.8.4
+        - 1.8.5
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3703,16 +3715,34 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3728,11 +3758,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3769,10 +3799,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3788,7 +3848,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3810,7 +3870,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3821,8 +3881,54 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
+        - 1.7.1
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 1.10.1
+        - 1.11.0
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
+        - 1.7.1
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 1.10.1
+        - 1.11.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3839,11 +3945,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3889,6 +3995,7 @@ m_PackageAssets:
         - 1.2.4
         - 1.2.5
         - 1.2.6
+        - 1.3.1
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3907,6 +4014,7 @@ m_PackageAssets:
         - 1.2.4
         - 1.2.5
         - 1.2.6
+        - 1.3.1
         verified: 1.2.6
       dependencies: []
       resolvedDependencies: []
@@ -3946,17 +4054,68 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
         - 4.0.3
+        - 4.0.4
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
         compatible:
         - 4.0.3
-        verified: 4.0.3
+        - 4.0.4
+        - 4.1.0
+        verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3985,11 +4144,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637408843940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -4011,14 +4170,34 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
         splines) in EditorWindows and the SceneView."
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -4035,11 +4214,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637637511040000000
       documentationUrl: 
       hasRepository: 1
       repository:

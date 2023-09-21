@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bm_boardScript: {fileID: 0}
-<<<<<<< HEAD
+HEAD
 --- !u!1 &562442939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,8 +1300,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577279290}
   m_CullTransparentMesh: 1
-=======
->>>>>>> e7c51911c8e8aaeb4654bdca3a9c271954de44db
+
 --- !u!1 &581171162
 GameObject:
   m_ObjectHideFlags: 0
